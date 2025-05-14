@@ -130,7 +130,7 @@ class RecipeCard extends HTMLElement {
 		//           Remember to replace all the placeholders in the template with the data passed in.
 		//           i.e. imgSrc, titleLnk, etc
 		const article = this.shadowRoot.querySelector('article');
-		const starImg = `/Lab6_Starter/assets/images/icons/${data.rating}-star.svg`;
+		const starImg = `/./assets/images/icons/${data.rating}-star.svg`;
 
 		article.innerHTML = `
 			<img src="${data.imgSrc}" alt="${data.imgAlt}">
