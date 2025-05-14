@@ -129,7 +129,7 @@ class RecipeCard extends HTMLElement {
 		// 			 Do NOT include the <article> tags within the innerHTML of the element you create.
 		//           Remember to replace all the placeholders in the template with the data passed in.
 		//           i.e. imgSrc, titleLnk, etc
-		const basePath = window.location.pathname.includes('your-repo-name') ? '/Lab6_Starter' : '';
+		const basePath = '/Lab6_Starter';
 		const article = this.shadowRoot.querySelector('article');
 		const starImg = `${basePath}/assets/images/icons/${data.rating}-star.svg`;
 
